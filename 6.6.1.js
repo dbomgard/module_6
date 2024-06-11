@@ -1,5 +1,5 @@
-let word = prompt("Введите слово")
-let arr = word.toLowerCase().replaceAll(' ', '').split('')
+const word = prompt("Введите слово")
+const arr = word.toLowerCase().replaceAll(' ', '').split('')
 console.log(arr.reverse().join(''))
 
 if (arr.join('') === arr.reverse().join('')) {

@@ -5,7 +5,7 @@ const obj = {
     tom: 'there'
 };
 
-let arrValues = []
+const arrValues = []
 
 for (let key in obj) {
     if (Array.isArray(obj[key])) {
